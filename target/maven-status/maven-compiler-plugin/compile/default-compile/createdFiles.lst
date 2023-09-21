@@ -1,0 +1,5 @@
+com\hardrockbe\hardrock\model\menu.class
+com\hardrockbe\hardrock\HardrockApplication.class
+com\hardrockbe\hardrock\model\MenuDTO.class
+com\hardrockbe\hardrock\controller\menucontroller.class
+com\hardrockbe\hardrock\repos\menurepository.class

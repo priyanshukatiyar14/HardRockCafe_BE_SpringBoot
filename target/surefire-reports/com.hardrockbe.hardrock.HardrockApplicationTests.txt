@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.hardrockbe.hardrock.HardrockApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.028 s - in com.hardrockbe.hardrock.HardrockApplicationTests
