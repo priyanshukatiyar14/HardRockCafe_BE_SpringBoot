@@ -2,7 +2,7 @@ package com.hardrockbe.hardrock.model;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "user")
+@Table(name = "auth")
 public class auth {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -12,7 +12,7 @@ public class auth {
     @Column(name="username")
     private String username;
     @Column(name="password")
-    private int password;
+    private String password;
     @Column(name="email")
     private String email;
     
@@ -20,9 +20,11 @@ public class auth {
     public auth() {
     }
 
-    public auth(String name, String username) {
+    public auth(String name, String username, String password, String email) {
         this.name = name;
         this.username = username;
+        this.password = password;
+        this.email = email;
     }
 
     
@@ -38,8 +40,12 @@ public class auth {
         return username;
     }
 
-    public int getPassword() {
+    public String getPassword() {
         return password;
+    }
+
+    public void setPassword(String password) {
+        this.password=password;
     }
 
     public String getEmail() {

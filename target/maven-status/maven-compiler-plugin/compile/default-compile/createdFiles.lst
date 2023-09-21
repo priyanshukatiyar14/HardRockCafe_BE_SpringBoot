@@ -1,5 +1,10 @@
 com\hardrockbe\hardrock\model\menu.class
 com\hardrockbe\hardrock\HardrockApplication.class
-com\hardrockbe\hardrock\model\MenuDTO.class
 com\hardrockbe\hardrock\controller\menucontroller.class
+com\hardrockbe\hardrock\repos\authrepository.class
+com\hardrockbe\hardrock\model\auth.class
 com\hardrockbe\hardrock\repos\menurepository.class
+com\hardrockbe\hardrock\SecurityConfig.class
+com\hardrockbe\hardrock\model\MenuDTO.class
+com\hardrockbe\hardrock\controller\authcontroller$SignupResponse.class
+com\hardrockbe\hardrock\controller\authcontroller.class
